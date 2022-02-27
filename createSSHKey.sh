@@ -27,5 +27,3 @@ curl -X POST \
      -H 'Content-Type: application/json' \
      --url https://api.github.com/user/keys \
      -d '{"key":"'"${ukey}"'","title":"'"${utitle}"'"}' 
-#curl -X POST -H "Accept: application/vnd.github.v3+json" -H "Authorization: token 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" -d '{"key":"ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIPPWiipzCOQKlM69UhRGnxUdUejpGXu3ereYXg2Vib00 ","title":"SSH Keys for R2-D2"}' https://api.github.com/user/keys
-# -d '{"key":"'${ukey}'","title":"'${utitle}'"}' \

@@ -1,4 +1,4 @@
-#Github Scripts
+#cGithub Scripts
 ## Here you will find scrips to interact with Github's API 
 
 |Script|Purpose|
@@ -12,7 +12,7 @@
 |setGitEnv.sh|Sets up the local GitHub environment based on the information found on the config.json file|
 |config.json|Stores the default configuration used by all the scripts above, this is the firs place to start|
 
-##Usage
+## Usage
 * Fill up the information on the config file
 +uname is your GitHub userID
 +ufname is your full name

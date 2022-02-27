@@ -1,4 +1,4 @@
-#cGithub Scripts
+# Github Scripts
 ## Here you will find scrips to interact with Github's API 
 
 |Script|Purpose|

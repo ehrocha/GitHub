@@ -14,11 +14,11 @@
 
 ## Usage
 * Fill up the information on the config file
-+uname is your GitHub userID
-+ufname is your full name
-+umail is your email
-+utoken is your GitHub token, you have to generate it in Developer Settings
-+upriv is your default for repository creation, select true for creating private by default or false to create public repositories by default
++ uname is your GitHub userID
++ ufname is your full name
++ umail is your email
++ utoken is your GitHub token, you have to generate it in Developer Settings
++ upriv is your default for repository creation, select true for creating private by default or false to create public repositories by default
 
 After you have updated the config file you are ready to use the scripts.
 
@@ -40,12 +40,12 @@ After you have updated the config file you are ready to use the scripts.
 
 ### listAllRepos.sh 
 - Will list all the public repositories for a given user
--./listAllRepos.sh \<gitUser\>
+- ./listAllRepos.sh \<gitUser\>
 
 ### makeRepoPublic.sh 
 - Will make a given repository public
--./makeRepoPublic.sh \<RepoName\>
+- ./makeRepoPublic.sh \<RepoName\>
 
 ### setGitEnv.sh 
 - Will setup the basic global settings for you based on the config.json file
--./setGitEnv.sh
+- ./setGitEnv.sh

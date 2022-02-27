@@ -22,7 +22,8 @@
 
 After you have updated the config file you are ready to use the scripts.
 
-### cloneAllRepos.sh - Will clone all the public user repositories
+### cloneAllRepos.sh 
+- Will clone all the public user repositories
 ./cloneAllRepos.sh \<gitUser\> 
 
 ### createNewRepo.sh - Will create a new, empty repository, it will create a standard README.md file and clone to local.

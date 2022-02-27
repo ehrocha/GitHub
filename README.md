@@ -13,7 +13,7 @@
 |config.json|Stores the default configuration used by all the scripts above, this is the firs place to start|
 
 ## Usage
-> Fill up the information on the config file
+> Fill up the information on the config file:
 >> - uname is your GitHub userID
 >> - ufname is your full name
 >> - umail is your email

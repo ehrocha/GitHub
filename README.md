@@ -35,8 +35,8 @@ After you have updated the config file you are ready to use the scripts.
 - ./createSSHKey.sh
 
 ### deleteRepo.sh 
-- Will delete a given repository, *no promprs*, use with caution
--./deleteRepo.sh \<RepoName\>
+- Will delete a given repository, *no prompts*, use with caution
+- ./deleteRepo.sh \<RepoName\>
 
 ### listAllRepos.sh 
 - Will list all the public repositories for a given user

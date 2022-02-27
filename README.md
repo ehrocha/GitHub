@@ -23,29 +23,29 @@
 After you have updated the config file you are ready to use the scripts.
 
 ### cloneAllRepos.sh 
-- Will clone all the public user repositories
-- ./cloneAllRepos.sh \<gitUser\> 
+* Will clone all the public user repositories
+  + ./cloneAllRepos.sh \<gitUser\> 
 
 ### createNewRepo.sh 
-- Will create a new, empty repository, it will create a standard README.md file and clone to local.
-- ./createNewRepo.sh \<RepoName\>
+* Will create a new, empty repository, it will create a standard README.md file and clone to local.
+  + ./createNewRepo.sh \<RepoName\>
 
 ### createSSHKey.sh
-- Will create local SSH keys and will upload the public key to GitHub
-- ./createSSHKey.sh
+* Will create local SSH keys and will upload the public key to GitHub
+  + ./createSSHKey.sh
 
 ### deleteRepo.sh 
-- Will delete a given repository, *no prompts*, use with caution
-- ./deleteRepo.sh \<RepoName\>
+* Will delete a given repository, *no prompts*, use with caution
+  + ./deleteRepo.sh \<RepoName\>
 
 ### listAllRepos.sh 
-- Will list all the public repositories for a given user
-- ./listAllRepos.sh \<gitUser\>
+* Will list all the public repositories for a given user
+  + ./listAllRepos.sh \<gitUser\>
 
 ### makeRepoPublic.sh 
-- Will make a given repository public
-- ./makeRepoPublic.sh \<RepoName\>
+* Will make a given repository public
+  + ./makeRepoPublic.sh \<RepoName\>
 
 ### setGitEnv.sh 
-- Will setup the basic global settings for you based on the config.json file
-- ./setGitEnv.sh
+* Will setup the basic global settings for you based on the config.json file
+  + ./setGitEnv.sh

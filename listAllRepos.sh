@@ -1,4 +1,4 @@
-#/bin/sh
+#!/bin/sh
 #-----------------------------------------------------------------
 # Shell Script to List all repositories from a user
 # Author : Eduardo Rocha - ehrocha@gmail.com

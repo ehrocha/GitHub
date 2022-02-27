@@ -1,4 +1,4 @@
-#/bin/sh
+#!/bin/sh
 #-----------------------------------------------------------------
 # Shell Script to delete a GitHub Repository
 # Author : Eduardo Rocha - ehrocha@gmail.com

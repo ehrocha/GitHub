@@ -1,4 +1,4 @@
-#/bin/sh
+#!/bin/sh
 #-----------------------------------------------------------------
 # Shell Script to setup the SSH Keys
 # Author : Eduardo Rocha - ehrocha@gmail.com

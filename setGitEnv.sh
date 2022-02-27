@@ -1,4 +1,4 @@
-#/bin/sh
+#!/bin/sh
 #-----------------------------------------------------------------
 # Shell Script to setup the local Git Environment
 # Author : Eduardo Rocha - ehrocha@gmail.com

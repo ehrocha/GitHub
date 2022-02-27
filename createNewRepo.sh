@@ -1,4 +1,4 @@
-#/bin/sh
+#!/bin/sh
 #-----------------------------------------------------------------
 # Shell Script to create a new GitHub Repository
 # Author : Eduardo Rocha - ehrocha@gmail.com

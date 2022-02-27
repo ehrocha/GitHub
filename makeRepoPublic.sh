@@ -1,4 +1,4 @@
-#/bin/sh
+#!/bin/sh
 #-----------------------------------------------------------------
 # Shell Script to make a GitHub Repository public
 # Author : Eduardo Rocha - ehrocha@gmail.com

@@ -6,8 +6,8 @@
 # Variable Initialization
 # Package jq is required for parsing the JSON file
 #-----------------------------------------------------------------
-ufname=($(jq -r '.ufname' config.json));
-umail=($(jq -r '.uname' config.json));
+ufname=$(jq -r '.ufname' config.json);
+umail=$(jq -r '.umail' config.json);
 #-----------------------------------------------------------------
 # Setting Up UserName and Email
 #-----------------------------------------------------------------

@@ -16,6 +16,7 @@
 * Copy the config.json to your ~/.github directory. If it does not exist you can create it with:
   + mkdir ~/.github
   + cp <config.json_location> ~/.github
+  
 * Edit the config file and add your information to the information on the config file:
   + uname is your GitHub userID
   + ufname is your full name

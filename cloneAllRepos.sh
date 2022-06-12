@@ -8,7 +8,8 @@
 uname=$1;
 utype="users";
 upage=1 ; 
-utoken=($(jq -r '.utoken' config.json));
+utoken=$(jq -r '.utoken' ~/.github/config.json);
+echo "${utoken}";
 #-----------------------------------------------------------------
 # Requesting the list from the API and building the necessary Git
 # Commands

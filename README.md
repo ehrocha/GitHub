@@ -13,12 +13,16 @@
 |config.json|Stores the default configuration used by all the scripts above, this is the firs place to start|
 
 ## Usage
-* Fill up the information on the config file:
+* Copy the config.json to your ~/.github directory. If it does not exist you can create it with:
+  + mkdir ~/.github
+  + cp <config.json_location> ~/.github
+* Edit the config file and add your information to the information on the config file:
   + uname is your GitHub userID
   + ufname is your full name
   + umail is your email
   + utoken is your GitHub token, you have to generate it in Developer Settings
   + upriv is your default for repository creation, select true for creating private by default or false to create public repositories by default
+
 
 After you have updated the config file you are ready to use the scripts.
 

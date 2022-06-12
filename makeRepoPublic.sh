@@ -10,8 +10,8 @@
 #-----------------------------------------------------------------
 #set -x;
 urepo=$1;
-uname=($(jq -r '.uname' config.json));
-utoken=($(jq -r '.utoken' config.json));
+uname=$(jq -r '.uname' ~/.github/config.json);
+utoken=$(jq -r '.utoken' ~/.github/config.json);
 #-----------------------------------------------------------------
 # Requesting Repository update from the API
 # and clone the repository locally

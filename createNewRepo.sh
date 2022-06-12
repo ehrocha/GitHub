@@ -10,9 +10,9 @@
 #-----------------------------------------------------------------
 #set -x;
 urepo=$1;
-uname=($(jq -r '.uname' config.json));
-utoken=($(jq -r '.utoken' config.json));
-upriv=($(jq -r '.upriv' config.json));
+uname=$(jq -r '.uname' ~/.github/config.json);
+utoken=$(jq -r '.utoken' ~/.github/config.json);
+upriv=$(jq -r '.upriv' ~/.github/config.json);
 #-----------------------------------------------------------------
 # Requesting Repository Creation from the API
 # and clone the repository locally

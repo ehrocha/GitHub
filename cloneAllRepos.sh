@@ -16,6 +16,6 @@ echo "${utoken}";
 #-----------------------------------------------------------------
 curl "https://api.github.com/${utype}/${uname}/repos?page=${upage}&per_page=100" \
      -H "Authorization: token ${utoken}" \
-     | grep -e 'git_url*' \
+     | grep -e 'ssh_url*' \
      | cut -d \" -f 4 \
      | xargs -L1 git clone ;
